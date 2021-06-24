@@ -1,0 +1,21 @@
+.btn {
+    width: 200px;
+    height: 60px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    background: #E8C300;
+    border-radius: 5px;    
+    align-items: center;
+    border: none;
+    a {
+        color: #fff;
+    }
+    &-clear {
+        background: none;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        &:hover {
+            background: #E8C300;
+        }
+    }
+}

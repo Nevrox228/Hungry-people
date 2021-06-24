@@ -1,0 +1,62 @@
+.header {
+    min-height: 800px;
+    background: url('../img/bg/header.jpg') center (center/cover) no-repeat;
+    &__menu { 
+        display: flex;
+        justify-content: space-between;
+        padding-top: 25px;
+        ul {
+            padding: 25px 0 0 0 ;
+            display: flex;
+            justify-content: space-between;
+            li {
+                list-style-type: none;
+                padding: 0 45px 0 45px;
+                a {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    &__descr {
+        padding-top: 150px;
+        text-align: center;
+        color: #fff;
+    }
+    &__txt {
+        letter-spacing: 0.5em;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    &__title {
+        padding-top: 14px;
+        text-transform: uppercase;
+        font-size: 96px;
+        font-family: Averia Libre;
+    }
+    &__button {
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        &-wrapper {
+            display: flex;
+        }
+    }
+    &__btn {
+        margin: 0 20px;
+        transition: all 1s;
+        &:hover {
+            background: none;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        } 
+    }
+    
+    
+    &__logo {
+        img {
+            width: 145px;
+        }
+    }
+}

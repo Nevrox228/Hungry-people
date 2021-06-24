@@ -1,0 +1,44 @@
+.chef {
+    padding: 45px 0 100px 0;
+    background: url('../img/bg/chef-bg.jpg') center (center/cover) no-repeat;
+    color: #fff;
+    position: relative;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 45px;
+    }
+    &__descr {
+        width: 600px;
+        text-align: center;
+    }
+    &__txt {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    &__title {
+        letter-spacing: 0.5em;
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;
+    }
+    &__text {
+        padding-top: 30px;
+    }
+    &__photo {
+        position: relative;
+    }
+    &__img {
+        padding-left: 125px;
+        img {
+            filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.5));
+        }
+    }
+    &__cub {
+        position: absolute;
+        top: 113px;
+        left: 0;
+    }
+}

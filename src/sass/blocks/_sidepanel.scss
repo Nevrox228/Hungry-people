@@ -1,0 +1,21 @@
+.sidepanel {
+    position: absolute;
+    top: 340px;
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+    a {
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        align-items: center;
+        margin: 10px 0;
+        transition: all 1s;
+        &:hover {
+            background: chartreuse;
+        }
+    }
+}
