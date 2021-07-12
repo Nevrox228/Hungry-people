@@ -1,0 +1,98 @@
+.menu {
+    padding: 100px 0;
+    &__header {
+        font-weight: bold;
+        font-size: 36px;
+        text-align: center;
+        font-family: 'Averia Libre';
+    }
+    &__descr {
+        width: 565px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    &__list {
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        div {
+            display: flex;
+            div {
+                list-style-type: none;
+                border-right: 1px solid rgba(51, 51, 51, 0.2);
+                transition: all 0.7s;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 18px;
+                color: #333333;
+                padding: 40px;
+                &:hover {
+                    background: #33333318;
+                }
+                &:last-child {
+                    border-right: none;
+                }
+            }
+        }
+    }
+    &__grid {
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3,363px);
+        gap: 85px;
+        row-gap: 35px;
+        display: none;
+        &__active {
+            display: block;
+            display: grid;
+            grid-template-columns: repeat(3,363px);
+            gap: 85px;
+            row-gap: 35px;
+        }
+    }
+    &__block {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(2,auto);
+        &-title {
+            font-weight: bold;
+            font-size: 18px;
+            font-family: Averia Libre;
+        }
+        &-price {
+            font-weight: bold;
+            font-size: 18px;
+            font-family: Averia Libre;
+        }
+        &-descr {
+            font-size: 12px;
+            line-height: 18px;
+            color: rgba(51, 51, 51, 0.5);
+        }
+    }
+}
+
+.tab { 
+    padding-top: 50px;
+    display: none;  
+    transition: all 1s;  
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.tab.is-active { 
+    transition: all 1s;
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(3,363px);
+    gap: 95px;
+    row-gap: 35px;
+    margin: 0 auto;
+}

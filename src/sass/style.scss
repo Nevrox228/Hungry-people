@@ -1,6 +1,6 @@
 @import 'libs/bootstrap-reboot.min';
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&family=Roboto:wght@400;700&display=swap');
-@import 'libs/slick';
+// @import 'libs/slick';
 
 * {
     font-family: 'Averia Libre', cursive;
@@ -35,4 +35,6 @@ h1, h2 ,h3, h4, h5, h6 {
 @import 'blocks/btn';
 @import 'blocks/chef';
 @import 'blocks/book';
-@import 'blocks/chokolate'
+@import 'blocks/slider';
+@import 'blocks/menu';
+@import 'blocks/events';
